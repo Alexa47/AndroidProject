@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/taki_gradient"
+    tools:context=".Niemiecki2">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button7N"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/amita"
+        android:onClick="uruchomRozDomRodzN"
+        android:text="@string/kat1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button8N"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button7N"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/amita"
+        android:onClick="uruchomRozJedzenieN"
+        android:text="@string/kat2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button9N"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button8N"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/amita"
+        android:onClick="uruchomRozSportN"
+        android:text="@string/kat3"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button10N"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button9N"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/amita"
+        android:onClick="uruchomRozTechnikaN"
+        android:text="@string/kat4"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button11N"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button10N"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/amita"
+        android:onClick="uruchomRozPrzyrodaN"
+        android:text="PRZYRODA"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

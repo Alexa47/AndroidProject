@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/taki_gradient"
+    tools:context=".Niemiecki">
+
+    <Button
+        android:id="@+id/buttonN2"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/amita"
+        android:onClick="uruchomPodstDomRodzN"
+        android:text="@string/kat1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonN3"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonN2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/amita"
+        android:onClick="uruchomPodstJedzenieN"
+        android:text="@string/kat2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonN4"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonN3"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/amita"
+        android:onClick="uruchomPodstSportN"
+        android:text="@string/kat3"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonN5"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonN4"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/amita"
+        android:onClick="uruchomPodstTechnikaN"
+        android:text="@string/kat4"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonN6"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonN5"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/amita"
+        android:onClick="uruchomPodstPrzyrodaN"
+        android:text="@string/kat5"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
